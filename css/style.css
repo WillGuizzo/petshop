@@ -1,0 +1,80 @@
+/* estilo simples do projeto */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* barra do topo */
+.topo {
+  background-color: #2e6f40;
+  color: white;
+  padding: 15px 0;
+}
+
+.topo h1 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* links do menu */
+.topo nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.topo nav a:hover {
+  text-decoration: underline;
+}
+
+/* caixa inicial da home */
+.caixa-bem-vindo {
+  background-color: #e2f0e6;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* caixas brancas de produtos, servicos e formulario */
+.cartao {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* tamanho das imagens dos produtos */
+.img-produto {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* tamanho das imagens do carrossel */
+.img-carrossel {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* texto do preco */
+.preco {
+  color: #2e6f40;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* rodape */
+.rodape {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.rodape p {
+  margin: 4px 0;
+}
